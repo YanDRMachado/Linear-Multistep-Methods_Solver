@@ -8,7 +8,7 @@
 
 ### 3. Backward Differentiation Methods (BDF, Implicit)
 
-I use Newton's Method for implicit solutions.
+I use Newton's Method for implicit problems.
 
 I recommend checking solutions with ODE45 MATLAB function (which aproximates the solutions with Runge-Kutta4). I also have a RK4 solver in my other directory that can be used for parameter checking.
 
