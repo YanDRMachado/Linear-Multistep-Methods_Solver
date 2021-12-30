@@ -2,11 +2,13 @@
 
 ## In the file you can check some examples of linear multistep methods and their parameter values.
 
-1. Adam Bashforth (AB, Explicit Adam)
+### 1. Adam Bashforth (AB, Explicit Adam)
 
-2. Adam Moulton (AM, Implicit Adam)
+### 2. Adam Moulton (AM, Implicit Adam)
 
-3. Backward Differentiation Methods (BDF, Implicit)
+### 3. Backward Differentiation Methods (BDF, Implicit)
+
+I use Newton's Method for implicit solutions.
 
 I recommend checking solutions with ODE45 MATLAB function (which aproximates the solutions with Runge-Kutta4). I also have a RK4 solver in my other directory that can be used for parameter checking.
 
